@@ -12,7 +12,8 @@ Paper: [Palmer, S. E., Schloss, K. B., Xu, Z., & Prado-León, L. R. (2013). Musi
 
 
 
-`filename`
+`T_BCP.csv`: Mean color-emotion associaitons and color coordinates for the Berkeley Color Project 37 (BCP-37) colors
+`T_EmoSubj.csv`: Color-emotion association ratings for the BCP-37 color (columns) for each subject (rows) 
 
 
 
