@@ -22,8 +22,8 @@ Color notation for the Berkeley Color Project 37 (BCP-37) includes two letters. 
 `computeCohen_d.m`: Function for calculating d (effect size) 
 Ruggero G. Bettinardi (2020). computeCohen_d(x1, x2, varargin) (https://www.mathworks.com/matlabcentral/fileexchange/62957-computecohen_d-x1-x2-varargin), MATLAB Central File Exchange. Retrieved February 26, 2020.
 
-`BCPColorEmo_Regression.sav`: SPSS data file used for forward-stepping multiple linear regression analyses (same data from `T_BCP.csv`)
+`BCPColorEmo_Regression.sav`: SPSS data file used for forward-stepping multiple linear regression (same data as `T_BCP.csv`)
 
-`BCPcolorEmo_Regression.sps`: SPSS syntax file used for forward-stepping multiple linear regression analyses
+`BCPcolorEmo_Regression.sps`: SPSS syntax file used for forward-stepping multiple linear regression 
 
 
