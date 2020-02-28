@@ -12,7 +12,7 @@ Color notation for the Berkeley Color Project 37 (BCP-37) includes two letters. 
         
 
 `T_BCP.csv`: Mean color-emotion associaitons and color coordinates for the Berkeley Color Project 37 (BCP-37) colors
-`T_EmoSubj.csv`: Color-emotion association ratings for the BCP-37 colors
+`T_EmoSubj.csv`: Color-emotion association ratings (Happy/sad and Angry) for the BCP-37 colors for each subject
 
 
 
