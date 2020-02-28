@@ -17,7 +17,7 @@ Color notation for the Berkeley Color Project 37 (BCP-37) includes two letters. 
 
 `BCPcoloremo.m`: MATLAB code used to analysze and plot the color-emotion association data 
 
-`PlotBCP.m`:  Function used in `BCPcoloremo.m` to plot data
+`PlotBCP.m`: Function used to plot data in `BCPcoloremo.m` 
 
 `computeCohen_d.m`: Function for calculating d (effect size) 
 Ruggero G. Bettinardi (2020). computeCohen_d(x1, x2, varargin) (https://www.mathworks.com/matlabcentral/fileexchange/62957-computecohen_d-x1-x2-varargin), MATLAB Central File Exchange. Retrieved February 26, 2020.
