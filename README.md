@@ -19,6 +19,16 @@ We controlled for lightness and chroma **statistically** using a dataset on the 
 
 `BCPcolorEmo_Regression.sps`: SPSS syntax used for forward-stepping multiple linear regression 
 
+
+We controlled for lightness and chroma **colorimetrically** using colors a set of colors that were based on the BCP-37 colors, but held lightness and chroma constant within each color set. To do so, it was necessary to use colors that were far less saturated than in the BCP-37. 
+
+`DefineColors.m`: MATLAB code that defines the colors for Experiment 1 and Experiment 2,  based on the BCP-37 colors.
+
+`colorconvert.m`: MATLAB code written by Laurent Lessard for translating between color spaces (https://github.com/LaurentLessard/colorconvert)
+
+
+
+
 ### References
 Palmer, S. E., Schloss, K. B., Xu, Z., & Prado-León, L. R. (2013). Music–color associations are mediated by emotion. _Proceedings of the National Academy of Sciences_, _110_, 8836-8841. (https://www.pnas.org/content/110/22/8836.short)
 
