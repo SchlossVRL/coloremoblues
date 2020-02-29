@@ -24,7 +24,7 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
 
 `DefineColors.m`: MATLAB code that defines the colors for Experiment 1 and Experiment 2,  based on the BCP-37 colors.
 
-`colorconvert.m`: MATLAB code written by Laurent Lessard for translating between color spaces (https://github.com/LaurentLessard/colorconvert)
+`colorconvert.m`: MATLAB code for translating between color spaces (https://github.com/LaurentLessard/colorconvert)
 
 
 
