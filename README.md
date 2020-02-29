@@ -1,7 +1,7 @@
 ## Blue Hues Don't Bring the Blues: questioning conventional notions of color-emotion associations
 Karen B. Schloss, Christoph Witzel, Leslie Y. Lai
 
-This project investigated yellow hues were happier than blue hues when lightness and chroma were controlled, either statistically or colorimetrically. 
+This project investigated yellow hues were happier than blue hues when lightness and chroma were controlled, either statistically or colorimetrically. Most of the code for organizing and plotting the data is run through `COLOR_EMO_MAIN.M`.
 
 --- 
 
@@ -9,7 +9,7 @@ We controlled for lightness and chroma **statistically** using a dataset on the 
             
 `T_BCP.csv`: Mean color-emotion associaitons and color coordinates for the Berkeley Color Project 37 (BCP-37) colors
 
-`T_EmoSubj.csv`: Color-emotion association ratings (Happy/sad and Angry) for the BCP-37 colors for each subject
+`T_BCPEmoSubj.csv`: Color-emotion association ratings (Happy/sad and Angry) for the BCP-37 colors for each subject
 
 `BCPcoloremo.m`: MATLAB code used to analysze and plot the color-emotion association data for the BCP-37 colors
 
@@ -35,7 +35,16 @@ We also had particpants perceptually match the sautration of colors acorss diffe
 
 `T_Exp2MatchColors.csv`: CIExyY, CIELAB, and CIELch (in CIELAB space) coordinates for the 32 colors in Expeirment 2B-match when colors were equal chroma ('equal', C* = 20) or perceptually matched ('match'). 
 
-Most of the code for organizing and plotting the data in Experiment 1 and 2B is run through `COLOR_EMO_MAIN.M`.
+Data from Experiment 1 and 2B are stored in the following files:
+
+`EquilumData.mat`: raw data from Experiment 1 and Experiment 2B (see comments in `COLOR_EMO_MAIN.M` for details)
+
+`T_Exp1Data.csv`: Color-emotion association ratings (Happy/Sad, Angry/not-angry) and color appearance ratings (Sat, LD, YB, RG) from Experiment 1 in long format (used in R analyses). These data have been averaged over color repetitions within-subject and scaled to ragne from -100 to +100, but are otherwise raw data. File also includes corresponding CIE L*, a*, b*, and C* coordinates. 
+
+`T_Exp2Data.csv`: Color-emotion association ratings (Happy/Sad, Angry/not-angry) and color appearance ratings (Sat, LD, YB, RG) from Experiment 2B in long format (used in R analyses). Underscore r ('_ r') means replication dataset (colors from Experiment 1 and underscore m ('_ m') means match dataset (colors of C* = 20 or colors that were matched around C* = 20). 
+
+`T_Exp1+2avgs.csv` and `ColorEmoExp1+2_Regression.sav`: Mean color-emotion assocaiton ratings and color-appearance raitngs used in for forward-stepping multiple linear regression in SPSS (same data in both files).
+
 
 
 
