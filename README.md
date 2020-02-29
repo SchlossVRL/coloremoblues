@@ -35,6 +35,10 @@ We also had particpants perceptually match the sautration of colors acorss diffe
 
 `T_Exp2MatchColors.csv`: CIExyY, CIELAB, and CIELch (in CIELAB space) coordinates for the 32 colors in Expeirment 2B-match when colors were equal chroma ('equal', C* = 20) or perceptually matched ('match'). 
 
+Most of the code for organizing and plotting the data in Experiment 1 and 2B is run through `COLOR_EMO_MAIN.M`.
+
+
+
 
 
 ### References
