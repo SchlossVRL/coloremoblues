@@ -43,12 +43,15 @@ Data from Experiment 1 and 2B are stored in the following files:
 
 `T_Exp2Data.csv`: Color-emotion association ratings (Happy/Sad, Angry/not-angry) and color appearance ratings (Sat, LD, YB, RG) from Experiment 2B in long format (used in R analyses). Underscore r ('_ r') means replication dataset (colors from Experiment 1 and underscore m ('_ m') means match dataset (colors of C* = 20 or colors that were matched around C* = 20). 
 
-`T_Exp1+2avgs.csv` and `ColorEmoExp1+2_Regression.sav`: Mean color-emotion assocaiton ratings and color-appearance raitngs used in for forward-stepping multiple linear regression in SPSS (same data in both files).
+`T_Exp1+2avgs.csv` and `ColorEmoExp1+2_Regression.sav`: Mean color-emotion assocaiton ratings and color-appearance raitngs used in for forward-stepping multiple linear regression in SPSS (same data in both files). Analyses are run using `ColorEmoExp1+2_Regression.sps`
+
+`T_HSexp1.csv` and `HSexp1.sav`: Experiment 1 happy/sad ratings for each participant in wide format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`. 
+
+`T_HSexp2.csv` and `HSexp2.sav`: Experiment 2 happy/sad ratings for each participant in wide format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`.
 
 
 
-
-
+---
 
 ### References
 Palmer, S. E., Schloss, K. B., Xu, Z., & Prado-León, L. R. (2013). Music–color associations are mediated by emotion. _Proceedings of the National Academy of Sciences_, _110_, 8836-8841. (https://www.pnas.org/content/110/22/8836.short)
