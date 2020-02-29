@@ -6,8 +6,8 @@ This project investigated yellow hues were happier than blue hues when lightness
 We controlled for lightness and chroma **statiscally** using a dataset on the Berkeley Color Project 37 (BCP-37) colors, previously published in Palmer, et al. (2013). Color notation for the Berkeley Color Project 37 (BCP-37) includes two letters. For the 32 chromatic colors, the first letter is the saturation/lightness level (S[aturated], L[ight], M[uted], or D[ark]) and the 2nd letter is the hue (R[ed], O[range], Y[ellow], [c]H[artreuse], G[reen], C[yan], B[lue], and P[urple]). E.g., Saturated Yellow is "SY." For the 5 achroamtic colors, BK = Black, A1 = dark gray, A2 = medium gray, A3 = light gray, and WH = white. We used the following data files and code for this part of the paper:
             
 `T_BCP.csv`: Mean color-emotion associaitons and color coordinates for the Berkeley Color Project 37 (BCP-37) colors
-`
-T_EmoSubj.csv`: Color-emotion association ratings (Happy/sad and Angry) for the BCP-37 colors for each subject
+
+`T_EmoSubj.csv`: Color-emotion association ratings (Happy/sad and Angry) for the BCP-37 colors for each subject
 
 `BCPcoloremo.m`: MATLAB code used to analysze and plot the color-emotion association data for the BCP-37 colors
 
