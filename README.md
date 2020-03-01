@@ -49,6 +49,12 @@ Data from Experiment 1 and 2B are stored in the following files:
 
 `T_HSexp2.csv` and `HSexp2.sav`: Experiment 2 happy/sad ratings for each participant in wide format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`.
 
+`COLOR_EMO_MAIN.m` calls scripts that do the following (_Note: some scripts build on each other so they should be run in order_):
+
+1. `DefineColors.m`: defines colors in Experiment 1 and 2, as mentioned above
+2. `OrganizeData.m`: organizes the data loaded in from `EquilumData.mat` for making the .csv files above and for making figures
+3. `MakeFigures.m`: plots the color-emotion assoicaiton ratings and color-appearance ratings, using the function `PlotEmoApp.m`.
+
 
 
 ---
