@@ -16,6 +16,8 @@ In main directory
 
 `T_MatchColors.csv`: CIExyY, CIELAB, and CIELch (in CIELAB space) coordinates for the 32 colors in the supplementary experiment (match) in the Appendix. 
 
+`matchdata.xls`: raw and aggregated data for color matching task in the Appendix. In the tab labeled 'indi', columns are participant (pp), condition (light vs dark colors), trial (chronological trial #), pair (color combination), test (test color), comp (comparison color), L (lightness L*), hue (hue angle in degrees), adj_ab_1 (a* of the adjustment), adj_ab_2 (b* of the adjustment), adj_sat (adjusted chroma resulting in the a* and b* above), adj_rgb_1 (adjusted R of RGB), adj_rgb_1 (adjusted G of RGB), adj_rgb_1 (adjusted B of RGB), rt (duration of adjustment). In the tabs labeled 
+'light_agg' and 'dark_agg', the columns are L (lightness L*), hue (hue angle), C_ave (mean adjusted chroma), and C_sem (standard errors of the mean adjusted chroma) for light and dark colors, respectively.
  
  ---
  In folder `MatlabR`
