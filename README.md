@@ -19,7 +19,7 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
  ---
  In folder `MatlabR`
  
-`COLOR_EMO_MAIN.M`: runs code for defining colors and organizing and plotting data
+`COLOR_EMO_MAIN.M`: runs code for defining colors, organizing and plotting data, and performing some analyses.
 
 `T_BCPEmoSubj`: Color-emotion association ratings (Happy/Sad (HS), Angry (A)) for each participant from Palmer et al. (2013) in wide format.
 
@@ -52,25 +52,7 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
   
 `Equilum2HS.sav`: same as `T_Equilum2HS.csv`.
    
- used in for forward-stepping multiple linear regression in SPSS (same data in both files). Analyses are run using `ColorEmoExp1+2_Regression.sps`
- 
- and `HSexp1.sav`
- `T_HSexp2.csv` and `HSexp2.sav`: Experiment 2 happy/sad ratings for each participant in wide format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`.
-  format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`. 
-`BCPColorEmo_Regression.sav`: Data for forward-stepping multiple linear regression (same data as `T_BCP.csv`)
-
-`BCPcolorEmo_Regression.sps`: Syntax used for forward-stepping multiple linear regression 
-
-
-Data from Experiment 1 and 2B are stored in the following files:
-
-`EquilumData.mat`: raw data from Experiment 1 and Experiment 2B (see comments in `COLOR_EMO_MAIN.M` for details)
-
-
 ---
 
-### References
+### Reference
 Palmer, S. E., Schloss, K. B., Xu, Z., & Prado-León, L. R. (2013). Music–color associations are mediated by emotion. _Proceedings of the National Academy of Sciences_, _110_, 8836-8841. (https://www.pnas.org/content/110/22/8836.short)
-
-Ruggero G. Bettinardi (2020). computeCohen_d(x1, x2, varargin) (https://www.mathworks.com/matlabcentral/fileexchange/62957-computecohen_d-x1-x2-varargin), MATLAB Central File Exchange. Retrieved February 26, 2020.
-
