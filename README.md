@@ -36,9 +36,24 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
 `EquilumAnalyze.R`: R script that runs linear mixed effects models in Experiment 2 and the supplementary experiment in the Appendix. 
 
 --- 
-used in for forward-stepping multiple linear regression in SPSS (same data in both files). Analyses are run using `ColorEmoExp1+2_Regression.sps`
-
  In folder `SPSS`
+ 
+`BCP_Regression.sps`: runs forward-stepping multiple linear regressions (MLR) from Experiment 1
+ 
+`Equilum_Regression.sps`: runs forward-stepping MLR from Experiment 2 and the supplementary experiment in the Appendix
+ 
+`EquilumHS_YB_ANOVA.sps`: runs ANOVAs comparing happy/sad ratings for colors of yellow hue and blue hue in Experiment 2 and the supplementary experiment in the Appendix=
+
+`BCP_Regression.sav`: same as `T_BCP.csv`, excluding the CIExyY coordinates.
+ 
+`EquilumRegression.sav`: same as `T_EquilumRegression.csv`.
+  
+`EquilumHS.sav`: same as `T_EquilumHS.csv`.
+  
+`Equilum2HS.sav`: same as `T_Equilum2HS.csv`.
+   
+ used in for forward-stepping multiple linear regression in SPSS (same data in both files). Analyses are run using `ColorEmoExp1+2_Regression.sps`
+ 
  and `HSexp1.sav`
  `T_HSexp2.csv` and `HSexp2.sav`: Experiment 2 happy/sad ratings for each participant in wide format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`.
   format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`. 
