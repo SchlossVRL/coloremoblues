@@ -20,7 +20,9 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
  In folder `MatlabR`
  
 `COLOR_EMO_MAIN.M`: runs code for defining colors and organizing and plotting data
-  
+
+`T_BCPEmoSubj`: Color-emotion association ratings (Happy/Sad (HS), Angry (A)) for each participant from Palmer et al. (2013) in wide format.
+
 `T_EquilumData.csv`: Color-emotion association ratings (Happy/Sad, Angry/not-angry) and color appearance ratings (Sat, LD, YB, RG) from Experiment 2 in long format (used in R analyses). These data have been averaged over color repetitions within-subject and scaled to ragne from -100 to +100, but are otherwise raw data. File also includes corresponding CIE L*, a*, b*, and C* coordinates. 
 
 `T_Equilum2Data.csv`: Color-emotion association ratings (Happy/Sad, Angry/not-angry) and color appearance ratings (Sat, LD, YB, RG) from the supplementary experiment in the Appendix (replication and match datasets), in long format (used in R analyses). Underscore r ('_ r') means replication dataset (colors from Experiment 21 and underscore m ('_ m') means match dataset (colors of C* = 20 or colors that were matched around C* = 20). 
@@ -31,7 +33,7 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
 
 `T_Equilum2HS.csv`: Happy/sad ratings for each participant in the supplementary experiment (Appendix), in wide format.
 
-
+`EquilumAnalyze.R`: R script that runs linear mixed effects models in Experiment 2 and the supplementary experiment in the Appendix. 
 
 --- 
 used in for forward-stepping multiple linear regression in SPSS (same data in both files). Analyses are run using `ColorEmoExp1+2_Regression.sps`
