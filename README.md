@@ -10,7 +10,7 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
  ---
 In main directory
 
-`T_BCP.csv`: Mean color coordinates and color-emotion associaitons for the Berkeley Color Project 37 (BCP-37) colors 
+`T_BCP.csv`: Mean color coordinates and color-emotion associaitons for the Berkeley Color Project 37 (BCP-37) colors. 
 
 `T_EquilumColors.csv`: CIExyY, CIELAB, and CIELch (in CIELAB space) coordinates for the 32 colors in Experiment 2 and the supplementary experiment (replication) in the Appendix. 
 
@@ -28,7 +28,7 @@ In main directory
 
 `T_Equilum2Data.csv`: Color-emotion association ratings (Happy/Sad, Angry/not-angry) and color appearance ratings (Sat, LD, YB, RG) from the supplementary experiment in the Appendix (replication and match datasets), in long format (used in R analyses). Underscore r ('_ r') means replication dataset (colors from Experiment 21 and underscore m ('_ m') means match dataset (colors of C* = 20 or colors that were matched around C* = 20). 
 
-`T_EquilumRegressions.csv`: Mean color-emotion assocaiton ratings and color-appearance raitngs 
+`T_EquilumRegressions.csv`: Mean color-emotion assocaiton ratings and color-appearance ratings. 
 
 `T_EquilumHS.csv`: Happy/sad ratings for each participant in Experiment 2, in wide format.
 
