@@ -27,16 +27,19 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
 
 `T_EquilumRegressions.csv`: Mean color-emotion assocaiton ratings and color-appearance raitngs 
 
-`T_HSexp1.csv` and `HSexp1.sav`: Experiment 1 happy/sad ratings for each participant in wide format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`. 
+`T_EquilumHS.csv`: Happy/sad ratings for each participant in Experiment 2, in wide format.
 
-`T_HSexp2.csv` and `HSexp2.sav`: Experiment 2 happy/sad ratings for each participant in wide format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`.
+`T_Equilum2HS.csv`: Happy/sad ratings for each participant in the supplementary experiment (Appendix), in wide format.
 
-used in for forward-stepping multiple linear regression in SPSS (same data in both files). Analyses are run using `ColorEmoExp1+2_Regression.sps`
+
 
 --- 
+used in for forward-stepping multiple linear regression in SPSS (same data in both files). Analyses are run using `ColorEmoExp1+2_Regression.sps`
 
  In folder `SPSS`
- 
+ and `HSexp1.sav`
+ `T_HSexp2.csv` and `HSexp2.sav`: Experiment 2 happy/sad ratings for each participant in wide format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`.
+  format used for ANOVAs in SPSS (same data in both files). Analyses are run using `HappySad_YB_Exp1+2_ANOVA.sps`. 
 `BCPColorEmo_Regression.sav`: Data for forward-stepping multiple linear regression (same data as `T_BCP.csv`)
 
 `BCPcolorEmo_Regression.sps`: Syntax used for forward-stepping multiple linear regression 
