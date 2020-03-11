@@ -8,8 +8,9 @@ We controlled for lightness and chroma **statistically** using a dataset on the 
 We controlled for lightness and chroma **colorimetrically** using colors a set of colors that were based on the BCP-37 colors, but held lightness and chroma constant within each color set. To do so, it was necessary to use colors that were far less saturated than in the BCP-37. The 32 colors include 8 hues (R, O, Y, H, G, C, B, P) x 2 lightness levels (lt, dk) x 2 chroma levels (lo, hi). 
 
  ---
+In main directory
 
-`T_BCP.csv`: Mean color-emotion associaitons and color coordinates for the Berkeley Color Project 37 (BCP-37) colors
+`T_BCP.csv`: Mean color coordinates and color-emotion associaitons for the Berkeley Color Project 37 (BCP-37) colors 
 
 `T_EquilumColors.csv`: CIExyY, CIELAB, and CIELch (in CIELAB space) coordinates for the 32 colors in Experiment 2 and the supplementary experiment (replication) in the Appendix. 
 
@@ -42,7 +43,7 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
  
 `Equilum_Regression.sps`: runs forward-stepping MLR from Experiment 2 and the supplementary experiment in the Appendix
  
-`EquilumHS_YB_ANOVA.sps`: runs ANOVAs comparing happy/sad ratings for colors of yellow hue and blue hue in Experiment 2 and the supplementary experiment in the Appendix=
+`EquilumHS_YB_ANOVA.sps`: runs ANOVAs comparing happy/sad ratings for colors of yellow hue and blue hue in Experiment 2 and the supplementary experiment in the Appendix.
 
 `BCP_Regression.sav`: same as `T_BCP.csv`, excluding the CIExyY coordinates.
  
