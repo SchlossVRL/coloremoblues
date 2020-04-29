@@ -8,7 +8,7 @@ We controlled for lightness and chroma **statistically** using a dataset on the 
 We controlled for lightness and chroma **colorimetrically** using colors a set of colors that were based on the BCP-37 colors, but held lightness and chroma constant within each color set. To do so, it was necessary to use colors that were far less saturated than in the BCP-37. The 32 colors include 8 hues (R, O, Y, H, G, C, B, P) x 2 lightness levels (lt, dk) x 2 chroma levels (lo, hi). 
 
  ---
-###In main directory
+### In main directory
 
 `T_BCP.csv`: Mean color coordinates and color-emotion associaitons for the Berkeley Color Project 37 (BCP-37) colors. 
 
@@ -20,7 +20,7 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
 'light_agg' and 'dark_agg', the columns are L (lightness L*), hue (hue angle), C_ave (mean adjusted chroma), and C_sem (standard errors of the mean adjusted chroma) for light and dark colors, respectively.
  
  ---
- ###In folder `MatlabR`
+ ### In folder `MatlabR`
  
 `COLOR_EMO_MAIN.M`: runs code for defining colors, organizing and plotting data, and performing some analyses.
 
@@ -39,7 +39,7 @@ We controlled for lightness and chroma **colorimetrically** using colors a set o
 `EquilumAnalyze.R`: R script that runs linear mixed effects models in Experiment 2 and the supplementary experiment in the Appendix. 
 
 --- 
- ###In folder `SPSS`
+ ### In folder `SPSS`
  
 `BCP_Regression.sps`: runs forward-stepping multiple linear regressions (MLR) from Experiment 1
  
